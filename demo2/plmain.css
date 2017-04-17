@@ -1,0 +1,49 @@
+*{margin: 0;padding: 0;}
+#app {
+	width: 600px;
+	margin: 0 auto;
+}
+fieldset {
+	padding: 15px;
+	border: 1px solid #ccc;
+}
+.form-group {
+	margin: 15px 0;
+}
+label {
+	display: inline-block;
+	width: 10rem;
+	text-align: right;
+}
+input {
+	height: 1.5rem;
+	line-height: 1.5rem;
+	border: 1px solid #ccc;
+	padding: 2px;
+}
+button {
+	padding: 5px 8px;
+	border: 0;
+	border-radius: 3px;
+	color: #FFF;
+	background-color: #39B662;
+}
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+thead {
+	background-color: #39B662;
+	color: #FFF;
+}
+tr:nth-of-type(even) {
+	background-color: #eee;
+}
+td {
+	text-align: center;
+}
+td, th {
+	padding: 5px;
+	border: 1px solid #ccc;
+	border-collapse: collapse;
+}
